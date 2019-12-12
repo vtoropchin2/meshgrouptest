@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 
 /*
 |--------------------------------------------------------------------------
@@ -11,6 +11,4 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::any('/{any?}', ['as' => 'load-spa', 'uses' => 'SpaController@loadSpa'])->where('any', '.*');
