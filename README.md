@@ -2,4 +2,4 @@
 
 Разработаны API методы, UI в процессе реализации.
 
-Вы можете попробовать API методы в Insomnia. Файл конфигурации: <a href=https://insomnia.json>Insomnia.json</a>
+Вы можете попробовать API методы в Insomnia. Файл конфигурации: <a href=https://github.com/vtoropchin2/meshgrouptest/blob/master/insomnia.json>insomnia.json</a>
