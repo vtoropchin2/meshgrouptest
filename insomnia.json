@@ -1,0 +1,689 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2019-12-12T09:01:52.528Z",
+  "__export_source": "insomnia.desktop.app:v7.0.5",
+  "resources": [
+    {
+      "_id": "req_bf3fc31e672b4b4783547a0fe003be27",
+      "authentication": {},
+      "body": {
+        "mimeType": "multipart/form-data",
+        "params": [
+          {
+            "description": "",
+            "fileName": "/Users/vladimir/Downloads/T04N7MX42-U9QAHJANR-ded99968071a-512.jpg",
+            "id": "pair_0815e46d3c3640abaa4940f2f5c293e7",
+            "name": "image",
+            "type": "file",
+            "value": ""
+          }
+        ]
+      },
+      "created": 1575215135474,
+      "description": "",
+      "headers": [
+        {
+          "description": "",
+          "id": "pair_ac1f154487154ec1990061292542d728",
+          "name": "X-Requested-With",
+          "value": "XMLHttpRequest"
+        },
+        {
+          "id": "pair_aa12930c7dbd4e33bfa7a583d6b67fc9",
+          "name": "Content-Type",
+          "value": "multipart/form-data"
+        }
+      ],
+      "isPrivate": false,
+      "metaSortKey": -1575003295322.9375,
+      "method": "POST",
+      "modified": 1575215680481,
+      "name": "photo",
+      "parameters": [],
+      "parentId": "fld_bd2122d7809f45b496e866881abb99aa",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingFollowRedirects": "global",
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "http://meshgrouptest.dev/api/photos",
+      "_type": "request"
+    },
+    {
+      "_id": "fld_bd2122d7809f45b496e866881abb99aa",
+      "created": 1575215120302,
+      "description": "",
+      "environment": {},
+      "environmentPropertyOrder": null,
+      "metaSortKey": -1575135099518,
+      "modified": 1575215128292,
+      "name": "Photo",
+      "parentId": "wrk_e4cc9e92175443d98f2d40682c62bcd8",
+      "_type": "request_group"
+    },
+    {
+      "_id": "wrk_e4cc9e92175443d98f2d40682c62bcd8",
+      "created": 1575003281700,
+      "description": "",
+      "modified": 1575003281700,
+      "name": "MeshGroupTest",
+      "parentId": null,
+      "_type": "workspace"
+    },
+    {
+      "_id": "req_3f0aacaccfa44fd1a1a12de31163911b",
+      "authentication": {},
+      "body": {
+        "mimeType": "multipart/form-data",
+        "params": [
+          {
+            "description": "",
+            "fileName": "/Users/vladimir/Downloads/image_2019_11_26T01_07_46_297Z.png",
+            "id": "pair_0815e46d3c3640abaa4940f2f5c293e7",
+            "name": "image",
+            "type": "file",
+            "value": ""
+          }
+        ]
+      },
+      "created": 1575217439059,
+      "description": "",
+      "headers": [
+        {
+          "description": "",
+          "id": "pair_ac1f154487154ec1990061292542d728",
+          "name": "X-Requested-With",
+          "value": "XMLHttpRequest"
+        },
+        {
+          "id": "pair_aa12930c7dbd4e33bfa7a583d6b67fc9",
+          "name": "Content-Type",
+          "value": "multipart/form-data"
+        }
+      ],
+      "isPrivate": false,
+      "metaSortKey": -1575003295322.5469,
+      "method": "POST",
+      "modified": 1575217700061,
+      "name": "photo",
+      "parameters": [],
+      "parentId": "fld_bd2122d7809f45b496e866881abb99aa",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingFollowRedirects": "global",
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "http://meshgrouptest.dev/api/photos/1",
+      "_type": "request"
+    },
+    {
+      "_id": "req_a21e5c676a904e2da42b287597739e58",
+      "authentication": {},
+      "body": {},
+      "created": 1575215231471,
+      "description": "",
+      "headers": [
+        {
+          "description": "",
+          "id": "pair_ac1f154487154ec1990061292542d728",
+          "name": "X-Requested-With",
+          "value": "XMLHttpRequest"
+        }
+      ],
+      "isPrivate": false,
+      "metaSortKey": -1575003295322.1562,
+      "method": "DELETE",
+      "modified": 1575217769767,
+      "name": "photo",
+      "parameters": [],
+      "parentId": "fld_bd2122d7809f45b496e866881abb99aa",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingFollowRedirects": "global",
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "http://meshgrouptest.dev/api/photos/2",
+      "_type": "request"
+    },
+    {
+      "_id": "req_b8bb67abcb5d4f4896efe031559153f1",
+      "authentication": {},
+      "body": {},
+      "created": 1575135121279,
+      "description": "",
+      "headers": [
+        {
+          "description": "",
+          "id": "pair_ac1f154487154ec1990061292542d728",
+          "name": "X-Requested-With",
+          "value": "XMLHttpRequest"
+        }
+      ],
+      "isPrivate": false,
+      "metaSortKey": -1575003295324.5,
+      "method": "POST",
+      "modified": 1575215104760,
+      "name": "product",
+      "parameters": [
+        {
+          "description": "",
+          "id": "pair_ae7790a6872d4e26834f8c66c47a6761",
+          "name": "categoryId",
+          "value": "1"
+        },
+        {
+          "description": "",
+          "id": "pair_f6a0eb8f7dca46e9a9469aa0886d8a50",
+          "name": "name",
+          "value": "Category 1 Product"
+        },
+        {
+          "description": "",
+          "id": "pair_6238f49a694244428b913157d4f831c2",
+          "name": "description",
+          "value": "Description of the product"
+        }
+      ],
+      "parentId": "fld_e361544d31974b7083e14926d254a1d0",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingFollowRedirects": "global",
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "http://meshgrouptest.dev/api/products",
+      "_type": "request"
+    },
+    {
+      "_id": "fld_e361544d31974b7083e14926d254a1d0",
+      "created": 1575135099468,
+      "description": "",
+      "environment": {},
+      "environmentPropertyOrder": null,
+      "metaSortKey": -1575135099468,
+      "modified": 1575135099468,
+      "name": "Product",
+      "parentId": "wrk_e4cc9e92175443d98f2d40682c62bcd8",
+      "_type": "request_group"
+    },
+    {
+      "_id": "req_513418bd974f43ee9de420d614773096",
+      "authentication": {},
+      "body": {
+        "mimeType": "multipart/form-data",
+        "params": [
+          {
+            "description": "",
+            "fileName": "/Users/vladimir/Downloads/T04N7MX42-U9QAHJANR-ded99968071a-512.jpg",
+            "id": "pair_98da156d96024186a618fcace20a8db4",
+            "name": "image",
+            "type": "file",
+            "value": ""
+          }
+        ]
+      },
+      "created": 1575219335956,
+      "description": "",
+      "headers": [
+        {
+          "description": "",
+          "id": "pair_ac1f154487154ec1990061292542d728",
+          "name": "X-Requested-With",
+          "value": "XMLHttpRequest"
+        },
+        {
+          "id": "pair_ba3a7e6c88d84c609e4ab03ba06b664a",
+          "name": "Content-Type",
+          "value": "multipart/form-data"
+        }
+      ],
+      "isPrivate": false,
+      "metaSortKey": -1575003295323.7188,
+      "method": "POST",
+      "modified": 1575219540951,
+      "name": "add-product-photo",
+      "parameters": [
+        {
+          "description": "",
+          "id": "pair_ae7790a6872d4e26834f8c66c47a6761",
+          "name": "categoryId",
+          "value": "1"
+        },
+        {
+          "description": "",
+          "id": "pair_f6a0eb8f7dca46e9a9469aa0886d8a50",
+          "name": "name",
+          "value": "Category 1 Product"
+        },
+        {
+          "description": "",
+          "id": "pair_6238f49a694244428b913157d4f831c2",
+          "name": "description",
+          "value": "Description of the product"
+        }
+      ],
+      "parentId": "fld_e361544d31974b7083e14926d254a1d0",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingFollowRedirects": "global",
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "http://meshgrouptest.dev/api/products/1/add-photo",
+      "_type": "request"
+    },
+    {
+      "_id": "req_e0fc7973bb584eb2aec026f4863c1c61",
+      "authentication": {},
+      "body": {},
+      "created": 1575141072281,
+      "description": "",
+      "headers": [
+        {
+          "description": "",
+          "id": "pair_ac1f154487154ec1990061292542d728",
+          "name": "X-Requested-With",
+          "value": "XMLHttpRequest"
+        }
+      ],
+      "isPrivate": false,
+      "metaSortKey": -1575003295321.375,
+      "method": "PUT",
+      "modified": 1575141383133,
+      "name": "product",
+      "parameters": [
+        {
+          "description": "",
+          "id": "pair_f6a0eb8f7dca46e9a9469aa0886d8a50",
+          "name": "name",
+          "value": "Category 1 Product Updated"
+        },
+        {
+          "description": "",
+          "id": "pair_6238f49a694244428b913157d4f831c2",
+          "name": "description",
+          "value": "Updated Description of the product"
+        }
+      ],
+      "parentId": "fld_e361544d31974b7083e14926d254a1d0",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingFollowRedirects": "global",
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "http://meshgrouptest.dev/api/products/2",
+      "_type": "request"
+    },
+    {
+      "_id": "req_38bff10305c6438290a8abd9231e08b6",
+      "authentication": {},
+      "body": {},
+      "created": 1575141536999,
+      "description": "",
+      "headers": [
+        {
+          "description": "",
+          "id": "pair_ac1f154487154ec1990061292542d728",
+          "name": "X-Requested-With",
+          "value": "XMLHttpRequest"
+        }
+      ],
+      "isPrivate": false,
+      "metaSortKey": -1575003295319.8125,
+      "method": "DELETE",
+      "modified": 1575141580425,
+      "name": "product",
+      "parameters": [],
+      "parentId": "fld_e361544d31974b7083e14926d254a1d0",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingFollowRedirects": "global",
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "http://meshgrouptest.dev/api/products/1",
+      "_type": "request"
+    },
+    {
+      "_id": "req_f458fcf1a344430db2ae2c20e3ae8110",
+      "authentication": {},
+      "body": {},
+      "created": 1575141702756,
+      "description": "",
+      "headers": [
+        {
+          "description": "",
+          "id": "pair_ac1f154487154ec1990061292542d728",
+          "name": "X-Requested-With",
+          "value": "XMLHttpRequest"
+        }
+      ],
+      "isPrivate": false,
+      "metaSortKey": -1575003295319.0312,
+      "method": "POST",
+      "modified": 1575141795977,
+      "name": "product-move",
+      "parameters": [
+        {
+          "description": "",
+          "id": "pair_94953eaf070e4cf9964e6f1a28bac572",
+          "name": "categoryId",
+          "value": "2"
+        }
+      ],
+      "parentId": "fld_e361544d31974b7083e14926d254a1d0",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingFollowRedirects": "global",
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "http://meshgrouptest.dev/api/products/3/move",
+      "_type": "request"
+    },
+    {
+      "_id": "req_c25fb9ff6b574efc9a693bfd5587c006",
+      "authentication": {},
+      "body": {},
+      "created": 1575139979789,
+      "description": "",
+      "headers": [
+        {
+          "description": "",
+          "id": "pair_ac1f154487154ec1990061292542d728",
+          "name": "X-Requested-With",
+          "value": "XMLHttpRequest"
+        }
+      ],
+      "isPrivate": false,
+      "metaSortKey": -1575003295318.25,
+      "method": "GET",
+      "modified": 1575141839773,
+      "name": "productByCategory",
+      "parameters": [],
+      "parentId": "fld_e361544d31974b7083e14926d254a1d0",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingFollowRedirects": "global",
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "http://meshgrouptest.dev/api/categories/1/products",
+      "_type": "request"
+    },
+    {
+      "_id": "req_0093b79900ee4b989761878fb20b1790",
+      "authentication": {},
+      "body": {},
+      "created": 1575003295237,
+      "description": "",
+      "headers": [
+        {
+          "description": "",
+          "id": "pair_ac1f154487154ec1990061292542d728",
+          "name": "X-Requested-With",
+          "value": "XMLHttpRequest"
+        }
+      ],
+      "isPrivate": false,
+      "metaSortKey": -1575003295337,
+      "method": "POST",
+      "modified": 1575262962386,
+      "name": "category",
+      "parameters": [
+        {
+          "description": "",
+          "id": "pair_ae7790a6872d4e26834f8c66c47a6761",
+          "name": "name",
+          "value": "Root Category 1.2"
+        },
+        {
+          "description": "",
+          "disabled": false,
+          "id": "pair_7f1a4fcd848443ec8842683c30b6435c",
+          "name": "parentCategoryId",
+          "value": "1"
+        }
+      ],
+      "parentId": "fld_0d5bfb9fc16948f5a83277853385f31a",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingFollowRedirects": "global",
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "http://meshgrouptest.dev/api/categories",
+      "_type": "request"
+    },
+    {
+      "_id": "fld_0d5bfb9fc16948f5a83277853385f31a",
+      "created": 1575135047596,
+      "description": "",
+      "environment": {},
+      "environmentPropertyOrder": null,
+      "metaSortKey": -1575135047596,
+      "modified": 1575135047596,
+      "name": "Category",
+      "parentId": "wrk_e4cc9e92175443d98f2d40682c62bcd8",
+      "_type": "request_group"
+    },
+    {
+      "_id": "req_ecdd73a58fcc4ef296209310431bb5a6",
+      "authentication": {},
+      "body": {},
+      "created": 1575051931670,
+      "description": "",
+      "headers": [
+        {
+          "description": "",
+          "id": "pair_ac1f154487154ec1990061292542d728",
+          "name": "X-Requested-With",
+          "value": "XMLHttpRequest"
+        }
+      ],
+      "isPrivate": false,
+      "metaSortKey": -1575003295312,
+      "method": "GET",
+      "modified": 1575222022961,
+      "name": "category",
+      "parameters": [],
+      "parentId": "fld_0d5bfb9fc16948f5a83277853385f31a",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingFollowRedirects": "global",
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "http://meshgrouptest.dev/api/categories/1",
+      "_type": "request"
+    },
+    {
+      "_id": "req_4eecddd009c6459ba260e93d5e255cac",
+      "authentication": {},
+      "body": {},
+      "created": 1575313265523,
+      "description": "",
+      "headers": [
+        {
+          "description": "",
+          "id": "pair_ac1f154487154ec1990061292542d728",
+          "name": "X-Requested-With",
+          "value": "XMLHttpRequest"
+        }
+      ],
+      "isPrivate": false,
+      "metaSortKey": -1575003295305.75,
+      "method": "GET",
+      "modified": 1575313282773,
+      "name": "ancestors",
+      "parameters": [],
+      "parentId": "fld_0d5bfb9fc16948f5a83277853385f31a",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingFollowRedirects": "global",
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "http://meshgrouptest.dev/api/categories/5/ancestors",
+      "_type": "request"
+    },
+    {
+      "_id": "req_72c2cc0e240b44af8f3bdc4f633d7e88",
+      "authentication": {},
+      "body": {},
+      "created": 1575012937488,
+      "description": "",
+      "headers": [
+        {
+          "description": "",
+          "id": "pair_27ef922d0e5d43e59125e5d1db735699",
+          "name": "X-Requested-With",
+          "value": "XMLHttpRequest"
+        }
+      ],
+      "isPrivate": false,
+      "metaSortKey": -1575003295299.5,
+      "method": "GET",
+      "modified": 1575311043863,
+      "name": "categories",
+      "parameters": [
+        {
+          "description": "",
+          "disabled": false,
+          "id": "pair_ae7790a6872d4e26834f8c66c47a6761",
+          "name": "parentCategoryId",
+          "value": "5"
+        }
+      ],
+      "parentId": "fld_0d5bfb9fc16948f5a83277853385f31a",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingFollowRedirects": "global",
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "http://meshgrouptest.dev/api/categories/",
+      "_type": "request"
+    },
+    {
+      "_id": "req_8fad419b988d4b0a8672ab5f969a509f",
+      "authentication": {},
+      "body": {},
+      "created": 1575054213752,
+      "description": "",
+      "headers": [
+        {
+          "description": "",
+          "id": "pair_ac1f154487154ec1990061292542d728",
+          "name": "X-Requested-With",
+          "value": "XMLHttpRequest"
+        }
+      ],
+      "isPrivate": false,
+      "metaSortKey": -1575003295287,
+      "method": "PUT",
+      "modified": 1575222080494,
+      "name": "category",
+      "parameters": [
+        {
+          "description": "",
+          "id": "pair_ae7790a6872d4e26834f8c66c47a6761",
+          "name": "name",
+          "value": "Category 000"
+        }
+      ],
+      "parentId": "fld_0d5bfb9fc16948f5a83277853385f31a",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingFollowRedirects": "global",
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "http://meshgrouptest.dev/api/categories/1",
+      "_type": "request"
+    },
+    {
+      "_id": "req_abbc53bf0ab5479ab10bee8749ecda4e",
+      "authentication": {},
+      "body": {},
+      "created": 1575023360595,
+      "description": "",
+      "headers": [
+        {
+          "description": "",
+          "id": "pair_4df279c9eb1a48a18fc8443bfb42f282",
+          "name": "X-Requested-With",
+          "value": "XMLHttpRequest"
+        }
+      ],
+      "isPrivate": false,
+      "metaSortKey": -1575003295243.25,
+      "method": "DELETE",
+      "modified": 1575222117663,
+      "name": "categories",
+      "parameters": [],
+      "parentId": "fld_0d5bfb9fc16948f5a83277853385f31a",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingFollowRedirects": "global",
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "http://meshgrouptest.dev/api/categories/1",
+      "_type": "request"
+    },
+    {
+      "_id": "env_6409b9b4c34542ff3c92f4e0bf577dde6f2944f6",
+      "color": null,
+      "created": 1575003281835,
+      "data": {},
+      "dataPropertyOrder": null,
+      "isPrivate": false,
+      "metaSortKey": 1575003281835,
+      "modified": 1575003281835,
+      "name": "Base Environment",
+      "parentId": "wrk_e4cc9e92175443d98f2d40682c62bcd8",
+      "_type": "environment"
+    },
+    {
+      "_id": "jar_6409b9b4c34542ff3c92f4e0bf577dde6f2944f6",
+      "cookies": [
+        {
+          "creation": "2019-11-29T05:58:15.441Z",
+          "domain": "meshgrouptest.dev",
+          "expires": "2019-11-29T19:52:30.000Z",
+          "hostOnly": true,
+          "httpOnly": true,
+          "id": "08941483247136328",
+          "key": "laravel_session",
+          "lastAccessed": "2019-11-29T17:52:30.911Z",
+          "maxAge": 7200,
+          "path": "/",
+          "value": "eyJpdiI6Im9Za045K2YxT2dsN2xQR0JaOUxcL2p3PT0iLCJ2YWx1ZSI6IjMxb1FKMDA4Zld3ckhlcW5HNmVObFFEVXBkdHpCWnE2enFUMkJRcWxQQ3Q0VGJ2MVkzVjdlRXprV1NwNGJWWGoiLCJtYWMiOiI1OTk4YWNkNjIxNjQwNjQyNGE3YjUwZjliMWIwOWZkOGNhYjEyMWQ1MTgwM2FjMjY0YzhlNDg3ZGQzMjE3ZmU1In0%3D"
+        },
+        {
+          "creation": "2019-11-29T10:42:25.006Z",
+          "domain": "meshgrouptest.dev",
+          "expires": "2019-11-29T19:52:30.000Z",
+          "hostOnly": true,
+          "id": "8097551620017418",
+          "key": "XSRF-TOKEN",
+          "lastAccessed": "2019-11-29T17:52:30.910Z",
+          "maxAge": 7200,
+          "path": "/",
+          "value": "eyJpdiI6ImducWZiYjkzZFdmYlVpVDBNQ1gxMGc9PSIsInZhbHVlIjoiYWNhTFBwajY5N0VQT3QyYVRoZFBuT3pDVzUxZjZFRmgxaVJObEE5ZFpVUStPVjNjQkpIN3FLclZ3SFFJT2d0VyIsIm1hYyI6ImU0YjE1NGNhMjIwNjI5OTFhMDExMzA3ODAzZDZmZTQ5ZWExMTJjMjc4MjM3OTcyYWZkNjE1NmFhMWU0MGIwYmMifQ%3D%3D"
+        }
+      ],
+      "created": 1575003281837,
+      "modified": 1575049950911,
+      "name": "Default Jar",
+      "parentId": "wrk_e4cc9e92175443d98f2d40682c62bcd8",
+      "_type": "cookie_jar"
+    }
+  ]
+}
