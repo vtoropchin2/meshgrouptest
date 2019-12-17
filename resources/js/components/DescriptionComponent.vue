@@ -24,6 +24,8 @@
         <hr>
 
         <h3>Реализованы REST API</h3>
+        <p>Если Вы хотите попробовать API Вы можете воспользоваться готовым файлом конфигурации для Insomnia - <a href="https://raw.githubusercontent.com/vtoropchin2/meshgrouptest/master/insomnia.json" target="_blank">insomnia.json</a>.</p>
+
         <h5>Работа с категориями</h5>
         <p><code>POST api/categories</code></p>
         <p><code>GET api/categories/{categoryId}</code></p>
