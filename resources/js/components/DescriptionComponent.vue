@@ -27,25 +27,24 @@
         <p>Если Вы хотите попробовать API Вы можете воспользоваться готовым файлом конфигурации для Insomnia - <a href="https://raw.githubusercontent.com/vtoropchin2/meshgrouptest/master/insomnia.json" target="_blank">insomnia.json</a>.</p>
 
         <h5>Работа с категориями</h5>
-        <p><code>POST api/categories</code></p>
-        <p><code>GET api/categories/{categoryId}</code></p>
-        <p><code>GET api/categories/{categoryId}/ancestors</code></p>
-        <p><code>GET api/categories</code></p>
-        <p><code>PUT api/categories/{categoryId}</code></p>
-        <p><code>DELETE api/categories/{categoryId}</code></p>
+        <p><code>POST api/categories</code> - создание категории</p>
+        <p><code>GET api/categories/{categoryId}</code> - чтение категории</p>
+        <p><code>GET api/categories/{categoryId}/ancestors</code> - чтение всех родительских категорий</p>
+        <p><code>GET api/categories</code> - чтение категорий корневого уровня</p>
+        <p><code>PUT api/categories/{categoryId}</code> - редактирование категории</p>
+        <p><code>DELETE api/categories/{categoryId}</code> - удаление категории</p>
 
         <h5>Работа с товарами</h5>
-        <p><code>POST api/products</code></p>
-        <p><code>POST api/products/{productId}/add-photo</code></p>
-        <p><code>GET categories/{categoryId}}/products</code></p>
-        <p><code>PUT api/products/{productId}</code></p>
-        <p><code>DELETE api/products/{productId}</code></p>
-        <p><code>POST api/products/{productId}}/move</code></p>
+        <p><code>POST api/products</code> - создание товара</p>
+        <p><code>GET categories/{categoryId}}/products</code> - чтение товара</p>
+        <p><code>PUT api/products/{productId}</code> - редактирование товара</p>
+        <p><code>DELETE api/products/{productId}</code> - удаление товара</p>
+        <p><code>POST api/products/{productId}}/move</code> - перемещение товара в другую категорию</p>
 
         <h5>Работа с фотографиями товаров</h5>
-        <p><code>POST api/photos</code></p>
-        <p><code>POST api/photos/{photoId}</code></p>
-        <p><code>DELETE api/photos/{photoId}</code></p>
+        <p><code>POST api/products/{productId}/add-photo</code> - загрузка фотографии для товара</p>
+        <p><code>POST api/photos/{photoId}</code> - замена фотографии</p>
+        <p><code>DELETE api/photos/{photoId}</code> - удаление фотографии</p>
 
         <hr>
 
