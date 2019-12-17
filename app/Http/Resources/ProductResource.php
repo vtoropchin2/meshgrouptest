@@ -24,13 +24,19 @@ class ProductResource extends JsonResource
      */
     public function toArray($request)
     {
+        $fileName = $this->photo->file_name ?? null;
+        $photoUrl = null;
+        if ($fileName) {
+            $photoUrl = url('images/' . $this->photo->file_name);
+        }
+
         return [
             'id'          => $this->id,
             'name'        => $this->name,
             'description' => $this->description,
             'photo'       => [
                 'id'       => $this->photo->id ?? null,
-                'fileName' => $this->photo->file_name ?? null,
+                'fileName' => $photoUrl,
             ],
         ];
     }
