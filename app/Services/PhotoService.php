@@ -14,7 +14,7 @@ use Intervention\Image\ImageManagerStatic as Image;
  */
 class PhotoService extends AbstractService
 {
-    protected const PHOTO_DIR = 'images';
+    public const PHOTO_DIR = 'images';
 
     /**
      * @param UploadedFile $image
@@ -48,7 +48,7 @@ class PhotoService extends AbstractService
 
         $fileName = $this->uploadPhoto($image, $format, $quality);
         if ($this->hasUnlinkPhotoFile($photo)) {
-            unlink($this->getPhotoPath($photo->file_name));
+            unlink(self::getPhotoPath($photo->file_name));
         }
 
         $photo->update(
@@ -70,8 +70,8 @@ class PhotoService extends AbstractService
     public function uploadPhoto(UploadedFile $image, $format = 'jpg', $quality = 80): string
     {
         $img = Image::make($image);
-        $fileName = md5_file($image->getRealPath()) . ".$format";
-        $img->encode($format, $quality)->save($this->getPhotoPath($fileName));
+        $fileName = self::getFileName($image->getRealPath(), $format);
+        $img->encode($format, $quality)->save(self::getPhotoPath($fileName));
 
         return $fileName;
     }
@@ -83,10 +83,21 @@ class PhotoService extends AbstractService
      */
     public function hasUnlinkPhotoFile(Photo $photo): bool
     {
-        $photoPath = $this->getPhotoPath($photo->file_name);
+        $photoPath = self::getPhotoPath($photo->file_name);
         $countSamePhotos = Photo::where('file_name', $photo->file_name)->where('id', '!=', $photo->id)->count();
 
         return file_exists($photoPath) && $countSamePhotos === 0;
+    }
+
+    /**
+     * @param string $path
+     * @param string $format
+     *
+     * @return string
+     */
+    public static function getFileName(string $path, string $format): string
+    {
+        return md5_file($path) . ".$format";
     }
 
     /**
@@ -94,7 +105,7 @@ class PhotoService extends AbstractService
      *
      * @return string
      */
-    public function getPhotoPath(string $fileName): string
+    public static function getPhotoPath(string $fileName): string
     {
         return public_path(self::PHOTO_DIR . '/' . $fileName);
     }
@@ -109,7 +120,7 @@ class PhotoService extends AbstractService
         $photo = Photo::findOrFail($photoId);
 
         if ($this->hasUnlinkPhotoFile($photo)) {
-            unlink($this->getPhotoPath($photo->file_name));
+            unlink(self::getPhotoPath($photo->file_name));
         }
 
         $photo->delete();
