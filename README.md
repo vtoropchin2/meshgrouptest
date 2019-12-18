@@ -6,7 +6,7 @@
 
 <h3>Бэкенд:</h3>
 <ul class="list-unstyled">
-    <li>Php 7.1</li>
+    <li>Php 7.3</li>
     <li>Laravel 6.6</li>
     <li>REST API:</li>
 </ul>
