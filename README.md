@@ -1,5 +1,5 @@
 <h1>Пример SPA приложения</h1>
-<p>Исходный код - <a href="https://github.com/vtoropchin2/meshgrouptest"target="_blank">github.com</a></p>
+<p>Демо - <a href="https://app-1.dev-laboratory.com" target="_blank">app-1.dev-laboratory.com</a></p>
 <p>За основу было взято <a href="https://drive.google.com/file/d/1aNUVg6hj9JzSv8VcIs7aqkbsMkJuRJmW/view" target="_blank">тестовое задание</a>.</p>
 
 <hr>
